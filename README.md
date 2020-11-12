@@ -7,4 +7,4 @@
 
 > gem install clipboard
 
-> gem install gem "ffi", :platforms => [:mswin, :mingw] //Windows可能需要?(但我沒用)
+> gem install gem "ffi", :platforms => [:mswin, :mingw]            //Windows可能需要?(但我沒用)
