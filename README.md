@@ -3,14 +3,15 @@
 ## 在使用前，請完成以下步驟
 - 安裝Ruby(不限版本)
 - 安裝兩個Gem，於commend Line輸入
-> gem install kamiflex
-
-> gem install clipboard
-
-> gem install gem "ffi", :platforms => [:mswin, :mingw]            //Windows可能需要?(但我沒用)
-
+```
+gem install kamiflex
+gem install clipboard
+gem install gem "ffi", :platforms => [:mswin, :mingw]            //Windows可能需要?(但我沒用)
+```
 
 ## 程式碼
+- 新增檔案名.rb
+
 ```ruby
 require "kamiflex"
 require "clipboard"
@@ -57,4 +58,8 @@ end
 puts json
 Clipboard.copy(json)
 
+```
+### 執行
+```
+ruby 檔案名.rb
 ```
