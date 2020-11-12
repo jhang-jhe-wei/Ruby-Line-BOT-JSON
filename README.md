@@ -63,3 +63,4 @@ Clipboard.copy(json)
 ```
 ruby 檔案名.rb
 ```
+### 執行後貼上至帝霸狗(程式有內建複製)
