@@ -4,5 +4,7 @@
 - 安裝Ruby(不限版本)
 - 安裝兩個Gem，於commend Line輸入
 > gem install kamiflex
+
 > gem install clipboard
+
 > gem install gem "ffi", :platforms => [:mswin, :mingw] //Windows可能需要?(但我沒用)
